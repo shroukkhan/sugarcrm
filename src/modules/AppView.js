@@ -32,9 +32,9 @@ const AppView = React.createClass({
 
   componentWillReceiveProps({isReady, isLoggedIn}) {
     if (!this.props.isReady) {
-      if (isReady && !isLoggedIn) {
-        auth0.showLogin();
-      }
+      // if (isReady && !isLoggedIn) {
+      //   auth0.showLogin();
+      // }
     }
   },
 
